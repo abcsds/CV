@@ -24,6 +24,20 @@ make-smaller-titles: true
           <div class="col-md-12 main content-panel">
 
             <div class="articles">
+              <h2>Languages Spoken</h2>
+              <ul>
+                  {% for post in site.posts %}
+                    {% if post.category == 'language' %}
+                      <li>
+                          <h3>{{ post.title }}</h3>
+                          <small>{{ post.summary }}</small>
+                          <br>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+              </ul>
+              <br>
+              <hr>
               <h2>Education</h2>
               <ul>
                   {% for post in site.posts %}
@@ -52,10 +66,22 @@ make-smaller-titles: true
                     {% endif %}
                   {% endfor %}
               </ul>
-
+              <br>
+              <hr>
+              <h2>Volunteering</h2>
+              <ul>
+                  {% for post in site.posts %}
+                    {% if post.category == 'volunteering' %}
+                      <li>
+                          <h3>{{ post.title }}</h3>
+                          <small>{{ post.org }} &mdash; {{ post.beginning | date: "%B %Y" }} - {{ post.date | date: "%B %Y" }}</small>
+                          <br>
+                          <p> {{ post.summary }}</p>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+              </ul>
             </div>
-
         </div>
-
     </div>
 </div>
