@@ -1,0 +1,34 @@
+# Site settings
+title: "Alberto Barradas"
+email: abcsds@gmail.com
+description: "Alberto Barradas Resume"
+baseurl: ""
+url: "http://AlbertoBarradas.com/"
+title_description: "Computer Systems Engineer with interests on behaviour, social data and social network analysis, and biosignals. A pasionate of knowledge and learning, with experience in diverse areas ranging from scientific and technological research, filosophy, education, society, culture and their interactions."
+title_image: "https://secure.gravatar.com/avatar/b0175f6ca2b18736c7497573affde244"
+google_analytics: "UA-77416753-1"
+disqus_account: alberto_barradas
+github_repository: https://github.com/abcsds/cv
+# addthis_id:
+# post_limit: 5
+
+# Social usernames/URLs
+twitter_username: abcsds
+github_username:  abcsds
+linkedin_link: https://www.linkedin.com/in/luis-alberto-barradas-chacon-74601364
+google_plus_link: https://plus.google.com/u/0/+AlbertoBarradasC
+# stackoverflow_link: http://stackoverflow.com/users/3126271/abcsds
+
+# Footer
+footer_left: "Built on the <a href=\"https://github.com/jacobtomlinson/carte-noire\">Carte-Noire</a> Jekyll theme."
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/abcsds/cv\">Github &nbsp;<i class=\"fa fa-github-alt\"></i></a>"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]

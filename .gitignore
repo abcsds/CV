@@ -1,0 +1,5 @@
+# Jekyll Specific
+_site/
+
+# Ruby
+Gemfile.lock

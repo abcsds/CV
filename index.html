@@ -1,0 +1,63 @@
+---
+layout: default
+make-smaller-titles: true
+---
+
+
+<div class="container-fluid index">
+    <div class="row">
+
+        <div class="col-md-12 main content-panel">
+
+            <div class="gravatar">
+                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
+            </div>
+
+            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+
+            <div class="author-text">
+                {{ site.title_description }}
+            </div>
+
+            {% include social_links.html %}
+          </div>
+          <div class="col-md-12 main content-panel">
+
+            <div class="articles">
+              <h2>Education</h2>
+              <ul>
+                  {% for post in site.posts %}
+                    {% if post.category == 'education' %}
+                      <li>
+                          <a href="#">{{ post.title }}</a>
+                          <br>
+                          <small>{{ post.org }} &mdash; {{ post.beginning | date: "%B %Y" }} - {{ post.date | date: "%B %Y" }}</small>
+                          <br>
+                          <p> {{ post.summary }}</p>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+              </ul>
+              <br>
+              <hr>
+              <h2>Experience</h2>
+              <ul>
+                  {% for post in site.posts %}
+                    {% if post.category == 'experience' %}
+                      <li>
+                          <a href="#">{{ post.title }}</a>
+                          <br>
+                          <small>{{ post.org }} &mdash; {{ post.beginning | date: "%B %Y" }} - {{ post.date | date: "%B %Y" }}</small>
+                          <br>
+                          <p> {{ post.summary }}</p>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+              </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
