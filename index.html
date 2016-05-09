@@ -81,6 +81,24 @@ make-smaller-titles: true
                     {% endif %}
                   {% endfor %}
               </ul>
+              <br>
+              <hr>
+              <h2>Programming Languages</h2>
+              <ul id="programming" >
+                  {% for post in site.posts %}
+                    {% if post.category == 'programming' %}
+                      <li>
+                          <h3>{{ post.title }}
+                            <small>
+                              <div class="thumb">
+                                <img itemprop="image" src="{{ site.data.thumbnail[page.thumbnail] }}" alt="Thumbnail: {{ page.thumbnail }}" />
+                              </div>
+                            </small>
+                          </h3>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+              </ul>
             </div>
         </div>
     </div>
