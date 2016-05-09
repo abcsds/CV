@@ -20,7 +20,7 @@ google_plus_link: https://plus.google.com/u/0/+AlbertoBarradasC
 # stackoverflow_link: http://stackoverflow.com/users/3126271/abcsds
 
 # Footer
-footer_left: "Built on the <a href=\"https://github.com/jacobtomlinson/carte-noire\">Carte-Noire</a> Jekyll theme."
+# footer_left: ""
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/abcsds/cv\">Github &nbsp;<i class=\"fa fa-github-alt\"></i></a>"
 
 # Build settings

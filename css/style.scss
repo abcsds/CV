@@ -199,6 +199,10 @@ ul {
 	.fa-rss:hover {
 		color: $rss;
 	}
+
+	.fa-flask:hover {
+		color: $dark-blue;
+	}
 }
 
 /* Index */
@@ -295,8 +299,13 @@ ul {
 			padding: 0px;
 
 			li {
-				margin-bottom: 20px;
+				margin-bottom: 30px;
 				font-size: 24px;
+
+				h3 {
+					margin-top: 10px;
+					margin-bottom: 0px;
+				}
 
 				a:hover {
 					color: $light-medium;
