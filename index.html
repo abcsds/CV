@@ -89,11 +89,13 @@ make-smaller-titles: true
                     {% if post.category == 'programming' %}
                       <li>
                           <h3>{{ post.title }}
+                            {% if post.thumbnail %}
                             <small>
                               <div class="thumb">
-                                <img itemprop="image" src="{{ site.data.thumbnail[page.thumbnail] }}" alt="Thumbnail: {{ page.thumbnail }}" />
+                                <img itemprop="image" src="{{ site.data.thumbnail[page.thumbnail] }}" alt="{{ page.thumbnail }}" />
                               </div>
                             </small>
+                            {% endif %}
                           </h3>
                       </li>
                     {% endif %}
