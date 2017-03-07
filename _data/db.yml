@@ -1,0 +1,240 @@
+languages:
+  - name: English
+    level: Native
+  - name: Spanish
+    level: Native
+  - name: German
+    level: B2 (ÖSD)
+  - name: Esperanto
+    level: B1
+  - name: French
+    level: A1
+education:
+  - title:      Computer Systems Engineering
+    start:      2014-10-01 00:00:00
+    end:        2016-06-01 00:00:00
+    place:      Salamanca, Mexico
+    org:        Guanajuato University
+    summary:    B.ASc. in Computer Systems Engineering.
+  - title:      Audio and Electronic Engineering
+    start:      2012-06-01 00:00:00
+    end:        2013-08-01 00:00:00
+    place:      Graz, Austria
+    org:        Graz University of Technology
+    summary:    Study abroad coursework on Audio and Electronic Engineering.
+  - title:      Electronics and Communications Engineering
+    start:      2012-06-01 00:00:00
+    end:        2013-06-01 00:00:00
+    place:      Salamanca, Mexico
+    org:        Guanajuato University
+    summary:    Coursework on Electronics
+experience:
+  - title:      Intern Data Analyst for Neuroscience Laboratory
+    start:      2016-10-01 00:00:00
+    end:        Present
+    org:        DeLaSalle University
+    place:      Leon, Mexico
+    summary: >
+      "Data analysis for socio-emotional instruments"
+      "Digital signal processing for heart rate variability experiments"
+      "Digital signal processing for EEG experiments"
+  - title:      High performance computing workshop [20 Hrs.]
+    start:      2016-12-12 00:00:00
+    end:        2016-12-16 00:00:00
+    org:        Guanajuato University
+    place:      Guanajuato, Mexico
+    summary: >
+      "Imparted Julia workshop for the Chemistry department. http://github.com/abcsds/Taller-Julia"
+  - title:      Technology developer
+    start:      2015-01-01 00:00:00
+    end:        2016-06-01 00:00:00
+    org:        Monterrey Institute of Technology and Higher Education
+    place:      Mexico City, Mexico
+    summary: >
+      "Designed and Implemented IT infrastructure for the Laboratory of Entrepreneurship and Transformation http://let-emprendimientopublico.mx/es/"
+      "Full Stack developer at the International Public Entrepreneurship Program MECATE http://let-emprendimientopublico.mx/en/mecate/"
+  - title:      Fullstack Developer
+    start:      2015-01-01 00:00:00
+    end:        2016-06-01 00:00:00
+    org:        DGSystem
+    place:      Salamanca, Mexico
+    summary: >
+      "Advised on Web technologies"
+      "Developed static websites and commercial solutions"
+      "Implemented server side services"
+      "Implemented geographical information systems for marketing"
+      "Designed art-focused electronic workshop"
+  - title:      Backend Developer
+    start:      2015-01-01 00:00:00
+    end:        2015-04-01 00:00:00
+    org:        TECHO Mexico
+    place:      Mexico City, Mexico
+    summary: >
+      "Designed web application for National implementation of an International volunteer management system"
+  - title:      Backend Developer
+    start:      2015-01-01 00:00:00
+    end:        2015-01-31 00:00:00
+    org:        TECHO Mexico
+    place:      Santiago, Chile
+    summary: >
+      "Updated human resources management system for an International NGO"
+  - title:      Backend Developer
+    start:      2014-08-01 00:00:00
+    end:        2014-12-01 00:00:00
+    org:        Vagales
+    place:      Irapuato, Mexico
+    summary: >
+      "Created web scrappers for flight-tickets-search-app."
+learning:
+  - title:    Behavioural and Cognitive Psychobiology
+    date:     March 2017
+    place:    Queretaro, Mexico
+    org:      Biosignals Group Mexico
+    duration: 3 days
+  - title:    Neuromodulation Workshop
+    date:     November 2016
+    place:    Mexico City, Mexico
+    org:      Mexican Society for Bio and Neurofeedback (SMBN)
+    duration: 4hrs
+  - title:    School of Evolutive Computing
+    date:     November 2016
+    place:    Guanajuato, Mexico
+    org:      Center for Mathematical Research (CIMAT)
+    duration: 20 hrs
+  - title:    Science Clubs Programming Assistant
+    date:     August 2016
+    place:    Guanajuato, Mexico
+    org:      Science Clubs Mexico (Clubes de Ciencia)
+    duration: 40 hrs
+  - title:    QEEG Analysis Workshop
+    date:     August 2016
+    place:    Guadalajara, Mexico
+    org:      Neuroscience Institute, Guadalajara University
+    duration: 25 hrs
+  - title:    Neurofeedback Introductory Workshop
+    date:     June 2015
+    place:    Leon, Mexico
+    org:      Mexican Society for Bio and Neurofeedback (SMBN)
+    duration: 40 hrs
+  - title:    Isomorphic Applications with Meteor Workshop
+    date:     January 2015
+    place:    Irapuato, Mexico
+    org:      Devceleration
+    duration: 6 hrs
+  - title:    Realtime Web with NodeJS Workshop
+    date:     October 2014
+    place:    Irapuato, Mexico
+    org:      Devceleration
+    duration: 6 hrs
+  - title:    User Experience Workshop
+    date:     August 2014
+    place:    Irapuato, Mexico
+    org:      Devceleration
+    duration: 6 hrs
+  - title:    Remote Work Workshop
+    date:     July 2014
+    place:    Irapuato, Mexico
+    org:      Devceleration
+    duration: 6 hrs
+  - title:    Tools for Scientific Writing Workshop
+    date:     January 2014
+    place:    Salamanca, Mexico
+    org:      Guanajuato University
+    duration: 6 hrs
+  - title:    MATLAB Workshop
+    date:     July 2013
+    place:    Salamanca, Mexico
+    org:      Guanajuato University
+    duration: 6 hrs
+  - title:    Leadership Workshop
+    date:     April 2013
+    place:    Leon, Mexico
+    org:      Iberoamerican University Mexico
+    duration: 96 hrs
+  - title:    QEEG and Neurofeedback
+    date:     April 2013
+    place:    Leon, Mexico
+    org:      Guanajuato University
+    duration: 16 hrs
+activities:
+  - title:      Founder and Organizer
+    start:      September 2016
+    end:        Present
+    org:        Julia Meetup León
+    place:      Leon, Mexico
+    summary: >
+      "Organize meetups"
+      "Give workshops and talks"
+  - title:      Co-founder and CTO
+    start:      September 2016
+    end:        Present
+    org:        TimeLayers
+    place:      Leon, Mexico
+    summary: >
+      "http://TimeLayers.org"
+      "Presented at Oxford City Debates http://www.futureofcities.ox.ac.uk/event/oxford-city-debates/"
+  - title:      Community Leader
+    start:      May 2015
+    end:        Present
+    org:        Codeando México / Tepache Hacklab
+    place:      Leon, Mexico
+    summary: >
+      "Continuous workshops on high-end technology for developers"
+      "Organize Civic Hack Nights every 15 days http://github.com/CodeandoLeon"
+  - title:      Volunteer
+    start:      January 2013
+    end:        January 2015
+    org:        TECHO Mexico
+    place:      Leon, Mexico
+    summary: >
+      "Gave classes and science divulgation in rural community for two years"
+      "Started self-sustainable development groups in rural community"
+  - title:      Active Student Branch Member
+    start:      June 2012
+    end:        September 2016
+    org:        IEEE Student Branch
+    place:      Salamanca, Mexico
+    summary: >
+      "Imparted courses and workshops for university students"
+      "Gave 20 Hrs. Python Introductory Course"
+      "Gave 20 Hrs. German Course"
+      "Gave 2 Hrs. OpenCV Object Detection Workshop"
+      "Organized technology and culture related events"
+tech-skills:
+  - name: Julia
+    descr: High preformance open source scientific programming language.
+  - name: C/C++
+    descr: High preformance general purpose programming language.
+  - name: Python
+    descr: High level general purpose programming language.
+  - name: Front-end development
+    descr: HTML5/CSS3/Javascript, including Jade, and SCSS.
+  - name: Octave/MATLAB
+    descr: Scientific programming focused on open source compatibility.
+  - name: Scipy
+    descr: Python scientific stack; Numpy, Matplotlib, Pandas.
+  - name: R
+    descr: Statistic foucsed programming language.
+  - name: Shell programming
+    descr: Bash and Zsh.
+  - name: Git and Github
+    descr: Version management systems. (Gh:@abcsds)
+  - name: Django and Flask
+    descr: Python web frameworks.
+  - name: Wordpress
+    descr: Blogging platform and Content Management System.
+  - name: Raspberry Pi
+    descr: Embeded linux.
+  - name: Linux
+    descr: Debian, Ubuntu, Arch, Debian Server, Ubuntu Server.
+  - name: Mac OSX
+    descr: Operating system and Hombrew system.
+  - name: Docker
+    descr: Virtual Containers.
+  - name: VirtualBox and Vagrant
+    descr: Virtual computing systems.
+lab-skills:
+  - name: EEG technician
+    descr: Can set up, register and process with software; BioExplorer, Loreta, Sloreta, OpenVibe, BioTracer, BrainAvatar and Amplifiers; USBamp, Nexus32, Emotiv, BrainMaster.
+interests: |
+  "OpenSource enthusiast, Social Media, Social- Music- Language- and Space- cognition, Neuroanatomy and Neurophysiology, Psychology, Hypnosis and Meditation, Ethology, Linguistics, Philosophy, Sociology Pedagogics, Logic, University and Academic dynamics, Science divulgation, Travel, Interculturality."

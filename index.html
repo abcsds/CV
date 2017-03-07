@@ -3,6 +3,7 @@ layout: default
 make-smaller-titles: true
 ---
 
+{% assign languages = site.data.db[languages] %}
 
 <div class="container-fluid index">
     <div class="row">
@@ -25,15 +26,14 @@ make-smaller-titles: true
 
             <div class="articles">
               <h2>Languages Spoken</h2>
+              {{languages}}
               <ul>
-                  {% for post in site.posts %}
-                    {% if post.category == 'language' %}
+                  {% for lang in languages %}
                       <li>
-                          <h3>{{ post.title }}</h3>
-                          <small>{{ post.summary }}</small>
+                          <h3>{{ lang.name }}</h3>
+                          <small>{{ lang.level }}</small>
                           <br>
                       </li>
-                    {% endif %}
                   {% endfor %}
               </ul>
               <br>
